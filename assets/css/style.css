@@ -1,0 +1,53 @@
+/* ========================
+          Generel
+======================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+}
+/* =========================
+         header
+=============================*/
+h1{
+border-top: 1px solid gray;
+}
+p{
+width: 600px;
+}
+
+/* =========================
+         Tabelle
+=============================*/
+section{
+    border: 2px solid gray;
+    width: 600px;
+}
+section ul {
+    padding-inline-start: 1.2em;
+}
+section ul li{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    list-style: none;
+}
+
+sechtion ul li::before:nth-of-type(1){
+content:"🐶";
+}
+sechtion ul li:before{
+    content: "🐯";
+}
+sechtion ul:nth-of-type(3)li::before{
+    content:"🦅";
+}
+sechtion ul:nth-of-type(4)li::before{
+ content:  "🐍" ;
+}
+sechtion ul:nth-of-type(5)li::before{
+ content :  "🦎";
+}
